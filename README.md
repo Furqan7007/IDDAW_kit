@@ -19,4 +19,7 @@ The workflow for dataset download is:
 
 ## Mask Generation for labels: 
 
+For mask generation, we follow the same instructions as specified in the below repository for IDD Dataset : 
+https://github.com/AutoNUE/public-code 
 
+However, just replace createLabels_iddaw.py in place of createLabels.py and run the same commands. 
