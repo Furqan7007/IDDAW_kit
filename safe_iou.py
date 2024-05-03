@@ -187,8 +187,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--gt_dir', default='/ssd_scratch/furqan/Datasets/', type=str, help='directory which stores CityScapes val gt images')
-    parser.add_argument('--pred_dir', default='predictions/test', type=str, help='directory which stores CityScapes val pred images')
+    parser.add_argument('--gt_dir', default='/ssd_scratch/furqan/Datasets/', type=str, help='directory which stores IDDAW val gt images')
+    parser.add_argument('--pred_dir', default='predictions/test', type=str, help='directory which stores IDDAW val pred images')
     parser.add_argument('--devkit_dir', default='iddaw', help='base directory of cityscapes')
     args = parser.parse_args()
     main(args)
